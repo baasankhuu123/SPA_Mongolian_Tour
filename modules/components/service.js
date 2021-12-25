@@ -6,7 +6,7 @@ class MyService extends HTMLElement {
         this.myShadowRoot = this.attachShadow({ mode: "open" });
         this.myShadowRoot.innerHTML = html`
             
-            <img src="/images/service${this.getAttribute("id")}.png" alt="${this.getAttribute("id")}">
+            <img src="/SPA_Mongolian_Tour/images/service${this.getAttribute("id")}.png" alt="${this.getAttribute("id")}">
         `
     }
 }
