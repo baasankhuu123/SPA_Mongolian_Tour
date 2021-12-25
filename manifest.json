@@ -12,14 +12,14 @@
   "categories": [],
   "screenshots" : [
   {
-    "src": "screen0.png",
+    "src": "images/screen0.png",
     "sizes": "750x1334",
     "type": "image/png",
     "platform": "wide",
     "label": "Homescreen of Awesome App"
   },
   {
-    "src": "screen1.png",
+    "src": "images/screen1.png",
     "sizes": "1280x800",
     "type": "image/png",
     "platform": "wide",
