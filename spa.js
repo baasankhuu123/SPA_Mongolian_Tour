@@ -140,7 +140,7 @@ class Homes{
         for(let b of title){
             A+=this.Round(b)
           }
-        return this.html`
+        return html`
         <div class="home_bg">
             <div class="bg">
                 <div class="swiper-container">
