@@ -1,4 +1,5 @@
 {
+  "lang": "en",
   "background_color": "#1e0f0a",
   "description": "Mongolia’s train",
   "dir": "ltr",
@@ -9,7 +10,8 @@
   "short_name": "davaadulam1000.github",
   "start_url": "/SPA_Mongolian_Tour/",
   "theme_color": "#ffd732",
-  "categories": [],
+  "related_applications": [],
+  "prefer_related_applications": false,
   "screenshots" : [
   {
     "src": "images/screen0.png",
@@ -24,8 +26,7 @@
     "type": "image/png",
     "platform": "wide",
     "label": "List of Awesome Resources available in Awesome App"
-  }
-],
+  }],
   "icons": [
     {
       "src": "icon/48x48.png",
@@ -52,7 +53,6 @@
       "type": "image/png"
     }
   ],
-  "shortcuts": [],
-  "url": "https://davaadulam1000.github.io/SPA_Mongolian_Tour/",
+  "url": "https://davaadulam1000.github.io/",
   "generated": true
 }
