@@ -6,7 +6,7 @@ class MyBlog extends HTMLElement {
         this.myShadowRoot = this.attachShadow({ mode: "open" });
         this.myShadowRoot.innerHTML = html`
             
-            <img src="/images/blog${this.getAttribute("id")}.jpg" alt="${this.getAttribute("id")}">
+            <img src="/SPA_Mongolian_Tour/images/blog${this.getAttribute("id")}.jpg" alt="${this.getAttribute("id")}">
         `
     }
 }
