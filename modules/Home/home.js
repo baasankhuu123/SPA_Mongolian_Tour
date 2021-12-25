@@ -6,7 +6,7 @@ export default class Home extends Component{
     }
     Round(rounds){
         return this.html`
-        <div class="swiper-slide" style="background-image:url(${rounds.url})">
+        <div class="swiper-slide" style="background-image:url(${SPA_Mongolian_Tour/rounds.url})">
             <div class="overlay"></div>
             <div class="caption container">
                 <div class="row" style="margin: 0; padding: 0;">
