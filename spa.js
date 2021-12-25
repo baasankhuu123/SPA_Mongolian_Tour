@@ -109,7 +109,52 @@ class POPULAR{
     }
 }
 //#endregion
+//#region Homes
 
+class Homes{
+    constructor(objData){
+        this.data = objData;
+    }
+    Round(rounds){
+        return html`
+        <div class="swiper-slide" style="background-image:url(${rounds.url})">
+            <div class="overlay"></div>
+            <div class="caption container">
+                <div class="row" style="margin: 0; padding: 0;">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="container">
+                            <div class="caption-text">
+                                <h2>${rounds.title}</h2>
+                                <h5>${rounds.Description}</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        `
+    }
+    Render(){
+        let A="";
+        const title = data.Title;
+        for(let b of title){
+            A+=this.Round(b)
+          }
+        return this.html`
+        <div class="home_bg">
+            <div class="bg">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        ${A}
+                    </div>
+                </div>
+            </div>
+        </div>
+        `
+    }
+}
+
+//#endregion
 //#region Create HomeData
 const homedata = {
     "Title":[
@@ -249,6 +294,7 @@ const ContactData = {
 
 
 const home = new Home(homedata);
+const homes = new Homes(homedata);
 const about = new About(aboutData);
 const h_treks = new HOT_TREKS(HOT_TREKS_DATA);
 const services = new SERVICES(SERVICES_DATA);
@@ -259,6 +305,7 @@ const about_us = new AboutUs(AboutUs);
 const contact = new Contact(ContactData);
 //Route list
 SPA.AddRoute("/", "/", home);
+SPA.AddRoute("/", "/home", homes);
 SPA.AddRoute("/", "/about", about);
 SPA.AddRoute("/", "/h_treks", h_treks);
 SPA.AddRoute("/", "/services", services);
@@ -290,4 +337,4 @@ history.pushState = function()
 }
 
 SPA.OnRoute(location.pathname);
-SPA.OnRoute("/");
+SPA.OnRoute("/home");
