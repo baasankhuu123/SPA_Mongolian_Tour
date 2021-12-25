@@ -304,8 +304,8 @@ const blog = new Blog(Blog_DATA);
 const about_us = new AboutUs(AboutUs);
 const contact = new Contact(ContactData);
 //Route list
-SPA.AddRoute("/", "/", home);
-SPA.AddRoute("/", "/SPA_Mongolian_Tour/", start);
+SPA.AddRoute("/", "/home", home);
+SPA.AddRoute("/", "/", start);
 SPA.AddRoute("/", "/about", about);
 SPA.AddRoute("/", "/h_treks", h_treks);
 SPA.AddRoute("/", "/services", services);
@@ -337,4 +337,4 @@ history.pushState = function()
 }
 
 SPA.OnRoute(location.pathname);
-SPA.OnRoute("/SPA_Mongolian_Tour/");
+SPA.OnRoute("/");
