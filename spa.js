@@ -136,7 +136,7 @@ class Start{
     }
     Render(){
         let A="";
-        const title = data.Title;
+        const title = this.data.Title;
         for(let b of title){
             A+=this.Round(b)
           }
