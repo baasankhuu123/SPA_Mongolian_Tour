@@ -161,11 +161,6 @@ const homedata = {
         {"title":"Western Mongolia Horse Trek/Snow Leopard Tour","url":"images/bg.jpg","Description":"Most remote Kharkhiraa Turgen Mountains, Legendary Altai Tavan Bogd National Park,"}
         ]
 };
-const startdata = {
-    "Title":[
-        {"title":"Western Mongolia Horse Trek/Snow Leopard Tour","url":"images/bg.jpg","Description":"Most remote Kharkhiraa Turgen Mountains, Legendary Altai Tavan Bogd National Park,"}
-        ]
-};
 //#endregion
 //#region Create About data
 const aboutData = {
@@ -299,7 +294,7 @@ const ContactData = {
 
 
 const home = new Home(homedata);
-const start = new Start(startdata);
+const start = new Start(homedata);
 const about = new About(aboutData);
 const h_treks = new HOT_TREKS(HOT_TREKS_DATA);
 const services = new SERVICES(SERVICES_DATA);
