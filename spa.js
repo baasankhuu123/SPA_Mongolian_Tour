@@ -58,7 +58,7 @@ class POPULAR{
         this.data = objData;
     }
     PRender(populard){
-        return`
+        return html`
         <div class="swiper-slide" style="padding:10px">
             <div class="row">
                 <div class="type col-md-12">
@@ -157,6 +157,11 @@ class Start{
 //#endregion
 //#region Create HomeData
 const homedata = {
+    "Title":[
+        {"title":"Western Mongolia Horse Trek/Snow Leopard Tour","url":"images/bg.jpg","Description":"Most remote Kharkhiraa Turgen Mountains, Legendary Altai Tavan Bogd National Park,"}
+        ]
+};
+const startdata = {
     "Title":[
         {"title":"Western Mongolia Horse Trek/Snow Leopard Tour","url":"images/bg.jpg","Description":"Most remote Kharkhiraa Turgen Mountains, Legendary Altai Tavan Bogd National Park,"}
         ]
@@ -294,7 +299,7 @@ const ContactData = {
 
 
 const home = new Home(homedata);
-const start = new Start(homedata);
+const start = new Start(startdata);
 const about = new About(aboutData);
 const h_treks = new HOT_TREKS(HOT_TREKS_DATA);
 const services = new SERVICES(SERVICES_DATA);
@@ -305,7 +310,7 @@ const about_us = new AboutUs(AboutUs);
 const contact = new Contact(ContactData);
 //Route list
 SPA.AddRoute("/", "/", home);
-SPA.AddRoute("/", "/home", start);
+SPA.AddRoute("/", "/index.html", start);
 SPA.AddRoute("/", "/about", about);
 SPA.AddRoute("/", "/h_treks", h_treks);
 SPA.AddRoute("/", "/services", services);
@@ -337,4 +342,4 @@ history.pushState = function()
 }
 
 SPA.OnRoute(location.pathname);
-SPA.OnRoute("/home");
+SPA.OnRoute("/index.html");
