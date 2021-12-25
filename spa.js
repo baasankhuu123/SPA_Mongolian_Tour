@@ -111,7 +111,7 @@ class POPULAR{
 //#endregion
 //#region Homes
 
-class Homes{
+class Start{
     constructor(objData){
         this.data = objData;
     }
@@ -241,7 +241,7 @@ const POPULAR_DATA = {
 //#endregion
 //#region Create Gallery data
 const Gallery_DATA = {
-    "image_url":"images/gallery_icon.png",
+    "image_url":"SPA_Mongolian_Tour/images/gallery_icon.png",
     "title":"OUR GALLERY",
     "Articles":[
         {"image_url":"SPA_Mongolian_Tour/images/gallery1.jpg","id":"1","title":"Northern Mongolia Horse Trek"},
@@ -294,7 +294,7 @@ const ContactData = {
 
 
 const home = new Home(homedata);
-const homes = new Homes(homedata);
+const start = new Start(homedata);
 const about = new About(aboutData);
 const h_treks = new HOT_TREKS(HOT_TREKS_DATA);
 const services = new SERVICES(SERVICES_DATA);
@@ -305,7 +305,7 @@ const about_us = new AboutUs(AboutUs);
 const contact = new Contact(ContactData);
 //Route list
 SPA.AddRoute("/", "/", home);
-SPA.AddRoute("/", "/home", homes);
+SPA.AddRoute("/", "/home", start);
 SPA.AddRoute("/", "/about", about);
 SPA.AddRoute("/", "/h_treks", h_treks);
 SPA.AddRoute("/", "/services", services);
