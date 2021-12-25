@@ -98,6 +98,13 @@
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+<script type="module">
+// This is the "Offline page" service worker
 
+import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+const el = document.createElement('pwa-update');
+document.body.appendChild(el);
+</script>
 </body>
 </html>
