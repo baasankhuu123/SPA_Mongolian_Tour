@@ -1,35 +1,43 @@
 {
   "background_color": "#1e0f0a",
-  "description": "Horse Trails Mongolia",
+  "description": "Mongolia’s train",
   "dir": "ltr",
   "display": "standalone",
   "name": "davaadulam1000.github",
-  "orientation": "natural",
+  "orientation": "any",
   "scope": "/SPA_Mongolian_Tour/",
   "short_name": "davaadulam1000.github",
-  "start_url": "https://davaadulam1000.github.io",
-  "theme_color": "#ffd700",
+  "start_url": "/SPA_Mongolian_Tour/",
+  "theme_color": "#ffd732",
   "categories": [],
   "screenshots": [],
   "icons": [
     {
-      "src": "https://davaadulam1000.github.io/SPA_Mongolian_Tour/images/logo2.png",
-      "type": "image/png",
-      "sizes": "154x99"
+      "src": "icon/48x48.png",
+      "sizes": "48x48",
+      "purpose": "any maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "icon/96x96.png",
+      "sizes": "96x96",
+      "purpose": "any maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "icon/128x128.png",
+      "sizes": "128x128",
+      "purpose": "any maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "icon/512x512.png",
+      "sizes": "512x512",
+      "purpose": "any maskable",
+      "type": "image/png"
     }
   ],
   "shortcuts": [],
-  " арын_өнгө": "#ffffff",
-  "дэлгэц": "биелэх",
-  "хамрах хүрээ": "/",
-  "Ангилал": [],
-  "дэлгэцийн агшин": [],
-  "дүрс": [
-    {
-      "src": "images/logo2.png",
-      "төрөл": "зураг/png",
-      "хэмжээ": "154x99"
-    }
-  ],
-  "товчлолууд": []
+  "url": "https://davaadulam1000.github.io/SPA_Mongolian_Tour/",
+  "generated": true
 }
