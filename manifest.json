@@ -1,0 +1,35 @@
+{
+  "background_color": "#1e0f0a",
+  "description": "Horse Trails Mongolia",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "davaadulam1000.github",
+  "orientation": "natural",
+  "scope": "/SPA_Mongolian_Tour/",
+  "short_name": "davaadulam1000.github",
+  "start_url": "https://davaadulam1000.github.io",
+  "theme_color": "#ffd700",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "https://davaadulam1000.github.io/SPA_Mongolian_Tour/images/logo2.png",
+      "type": "image/png",
+      "sizes": "154x99"
+    }
+  ],
+  "shortcuts": [],
+  " арын_өнгө": "#ffffff",
+  "дэлгэц": "биелэх",
+  "хамрах хүрээ": "/",
+  "Ангилал": [],
+  "дэлгэцийн агшин": [],
+  "дүрс": [
+    {
+      "src": "images/logo2.png",
+      "төрөл": "зураг/png",
+      "хэмжээ": "154x99"
+    }
+  ],
+  "товчлолууд": []
+}
