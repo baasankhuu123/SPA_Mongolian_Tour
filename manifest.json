@@ -10,7 +10,22 @@
   "start_url": "/SPA_Mongolian_Tour/",
   "theme_color": "#ffd732",
   "categories": [],
-  "screenshots": [],
+  "screenshots" : [
+  {
+    "src": "screen0.png",
+    "sizes": "750x1334",
+    "type": "image/png",
+    "platform": "wide",
+    "label": "Homescreen of Awesome App"
+  },
+  {
+    "src": "screen1.png",
+    "sizes": "1280x800",
+    "type": "image/png",
+    "platform": "wide",
+    "label": "List of Awesome Resources available in Awesome App"
+  }
+]
   "icons": [
     {
       "src": "icon/48x48.png",
