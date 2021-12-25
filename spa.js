@@ -222,17 +222,17 @@ const SERVICES_DATA = {
 //#endregion
 //#region Create Popular data
 const POPULAR_DATA = {
-    "image_url":"images/popular_icon.png",
+    "image_url":"SPA_Mongolian_Tour/images/popular_icon.png",
     "title":"POPULAR TREKS",
     "Description":"Popular Mongolian tours are designed to independent travelers, we can customize these tour in your best suits. You can ride horses from a day to multi days.  ",
     "Articles":[
         {
-            "image_url":"images/popular1.png",
+            "image_url":"SPA_Mongolian_Tour/images/popular1.png",
             "title":"Horseback Trekking to Khagin Khar Lake in Khentii",
             "Description":"Horse trekking to the glacier lake"
         },
         {
-            "image_url":"images/popular2.png",
+            "image_url":"SPA_Mongolian_Tour/images/popular2.png",
             "title":"Mongol Naadam Tour",
             "Description":"festival, event tours in Mongolia"
         }
@@ -244,14 +244,14 @@ const Gallery_DATA = {
     "image_url":"images/gallery_icon.png",
     "title":"OUR GALLERY",
     "Articles":[
-        {"image_url":"images/gallery1.jpg","id":"1","title":"Northern Mongolia Horse Trek"},
-        {"image_url":"images/gallery5.jpg","id":"1","title":"Gobi desert tour mongolia"},
-        {"image_url":"images/gallery1.jpg","id":"1","title":"Northern Mongolia Horse Trek"},
-        {"image_url":"images/gallery5.jpg","id":"1","title":"Gobi desert tour mongolia"},
-        {"image_url":"images/gallery1.jpg","id":"1","title":"Northern Mongolia Horse Trek"},
-        {"image_url":"images/gallery5.jpg","id":"1","title":"Gobi desert tour mongolia"},
-        {"image_url":"images/gallery1.jpg","id":"1","title":"Northern Mongolia Horse Trek"},
-        {"image_url":"images/gallery5.jpg","id":"1","title":"Gobi desert tour mongolia"}
+        {"image_url":"SPA_Mongolian_Tour/images/gallery1.jpg","id":"1","title":"Northern Mongolia Horse Trek"},
+        {"image_url":"SPA_Mongolian_Tour/images/gallery5.jpg","id":"1","title":"Gobi desert tour mongolia"},
+        {"image_url":"SPA_Mongolian_Tour/images/gallery1.jpg","id":"1","title":"Northern Mongolia Horse Trek"},
+        {"image_url":"SPA_Mongolian_Tour/images/gallery5.jpg","id":"1","title":"Gobi desert tour mongolia"},
+        {"image_url":"SPA_Mongolian_Tour/images/gallery1.jpg","id":"1","title":"Northern Mongolia Horse Trek"},
+        {"image_url":"SPA_Mongolian_Tour/images/gallery5.jpg","id":"1","title":"Gobi desert tour mongolia"},
+        {"image_url":"SPA_Mongolian_Tour/images/gallery1.jpg","id":"1","title":"Northern Mongolia Horse Trek"},
+        {"image_url":"SPA_Mongolian_Tour/images/gallery5.jpg","id":"1","title":"Gobi desert tour mongolia"}
     ]
 };
 //#endregion
